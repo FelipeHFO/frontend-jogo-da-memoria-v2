@@ -1,0 +1,9 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    height: 85vh;
+    grid-area: main;
+  }

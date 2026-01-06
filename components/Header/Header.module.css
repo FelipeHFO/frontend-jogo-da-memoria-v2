@@ -1,0 +1,23 @@
+.header{
+  height: 15vh;
+  text-align: center;
+  grid-area: header;
+}
+
+.title {
+  font-family: 'Press Start 2P';
+  color: #1d4ed8;
+  text-align: center;
+  text-shadow: 1px 1px white;
+  margin: 0;
+  padding: 50px;
+}
+
+.titleLg {
+  font-size: 3em;
+}
+
+.titleMd {
+  font-size: 2.5em;
+  color: red;
+}
