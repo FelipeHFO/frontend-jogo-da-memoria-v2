@@ -8,7 +8,7 @@ type CardProps = {
 };
 
 const Card = ({ id }: CardProps) => {
-  const { cards, setCards, checkAttempt } = useJogoDaMemoria();
+  const { cards, setCards } = useJogoDaMemoria(); //const { cards, setCards, checkAttempt } = useJogoDaMemoria();
   const [selectedCardId] = useState(id);
   let selectedCard = cards.find((card) => card.id === selectedCardId);
 
@@ -33,7 +33,7 @@ const Card = ({ id }: CardProps) => {
      * funcionou, depois de um segundo o estado da segunda carta alterado, ai
      * ele vai verificar mas o efeito de virar a carta já ocorreu.
      */
-    setInterval(() => checkAttempt(), 500);
+    //setInterval(() => checkAttempt(), 500);
   }
 
   return (
